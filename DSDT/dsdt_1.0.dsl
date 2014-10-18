@@ -6534,7 +6534,9 @@ DefinitionBlock ("dsdt_pached.aml", "DSDT", 1, "Apple ", "ACRPRDCT", 0x00000000)
                 }
                 Store (REG6, Local1)
                 Store (0x00F0F000, REG6) /* \_WAK.REG6 */
-                Store (\_GPE.MMTB (Local2, \_GPE.OSUP (Local2)), Store (Local1, REG6) /* \_WAK.REG6 */)
+                Store (\_GPE.MMTB(), Local2)
+                \_GPE.OSUP (Local2)
+                Store (Local1, REG6) /* \_WAK.REG6 */
                 Release (OSUM)
             }
             If (LEqual (RP1D, Zero))
@@ -6975,7 +6977,9 @@ DefinitionBlock ("dsdt_pached.aml", "DSDT", 1, "Apple ", "ACRPRDCT", 0x00000000)
                 }
                 Store (REG6, Local2)
                 Store (0x00F0F000, REG6) /* \_SB_.PCI0._INI.REG6 */
-                Store (\_GPE.MMTB (Local3, \_GPE.OSUP (Local3)), Store (Local2, REG6) /* \_SB_.PCI0._INI.REG6 */)
+                Store (\_GPE.MMTB(), Local3)
+                \_GPE.OSUP (Local3)
+                Store (Local2, REG6) /* \_SB_.PCI0._INI.REG6 */
                 Release (OSUM)
                 Acquire (WFDM, 0xFFFF)
                 Store (One, WKFN) /* \WKFN */
