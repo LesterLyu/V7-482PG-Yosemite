@@ -5,6 +5,8 @@ Mac OS 10.10 on Acer V7-482PG
 BIOS version: 2.28
 CPU: I7-4500u
 
+I'm new to Hactintosh.
+
 
 2014-10-19  Added HDEF to dsdt
             
@@ -28,7 +30,6 @@ What's not working:
 
 
 
-    I'm a new player of Hacttintosh. 
-    
+  
     
     
