@@ -18,6 +18,7 @@ What's working:
  +   USB3.0
  +   Audio(ALC282)
  +   HDMI
+ +   HD4400
     
     
     
