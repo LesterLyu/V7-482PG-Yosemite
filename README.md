@@ -23,7 +23,12 @@ What's working:
 What's not working:
 +    WIFI 5G(BCM94352HMB)
 +    HDMI Audio
-    
++    Change Brightness
+
+
+
+
+    I'm a new player of Hacttintosh. 
     
     
     
