@@ -27,6 +27,7 @@ What's not working:
 +    WIFI 5G(BCM94352HMB)
 +    HDMI Audio
 +    Change Brightness
++    Sleep
 
 
 
