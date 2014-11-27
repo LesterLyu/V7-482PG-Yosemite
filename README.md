@@ -19,12 +19,11 @@ What's working:
  +   Audio(ALC282)
  +   HDMI
  +   HD4400
-    
+ +   WIFI 5G(BCM94352HMB)
     
     
     
 What's not working:
-+    WIFI 5G(BCM94352HMB)
 +    HDMI Audio
 +    Change Brightness
 +    Sleep
